@@ -32,7 +32,7 @@
   filter: grayscale(100%);
 }
 .left h1 {
-  font-size: 18px;
+  font-size: 16.8px;
   margin-top: 8px;
   margin-bottom: 4px;
 }
@@ -137,7 +137,7 @@ ul li a {
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px; /* 172.727% */
+  line-height: 17px; /* 172.727% */
   letter-spacing: -0.2px;
   opacity: 0.6;
   text-align: justify;
@@ -148,7 +148,8 @@ ul li a {
   flex-direction: column;
   gap: 15px;
 }
-.right span {
+.learn span,
+.education span {
   color: var(--colors-black, #212121);
   font-feature-settings: "clig" off, "liga" off;
   font-family: IBM Plex Sans;
@@ -176,6 +177,8 @@ a:hover {
   }
   .left {
     width: 100%;
-
   }
+}
+.bold {
+  font-weight: 600;
 }
