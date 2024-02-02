@@ -80,6 +80,7 @@ ul li a {
 .right {
   width: 120%;
   margin: 0 auto;
+  margin-top: 20px;
   padding: 0 20px 40px;
   color: var(--colors-black, #212121);
   font-feature-settings: "clig" off, "liga" off;
