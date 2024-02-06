@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #000000 !important;
 }
 .container {
   max-width: 595px;
@@ -19,7 +20,7 @@
   font-weight: 700;
   line-height: 15px; /* 115.385% */
   letter-spacing: 0.2px;
-  padding: 30px 20px 40px 15px;
+  padding: 20px 20px 40px 15px;
 }
 .left img {
   width: 60px;
@@ -37,7 +38,7 @@
 }
 ul {
   list-style: none;
-  gap: 12px;
+  gap:16px;
   display: flex;
   flex-direction: column;
   font-family: "Hind", sans-serif;
@@ -45,7 +46,6 @@ ul {
   font-weight: 400;
   line-height: 12px; /* 100% */
   letter-spacing: 0.8px;
-  opacity: 0.6;
 }
 .left h2,
 .left h3 {
@@ -78,11 +78,11 @@ ul li a {
 }
 
 .right {
-  width: 120%;
+  width: 140%;
   margin: 0 auto;
   margin-top: 20px;
   padding: 0 20px 40px;
-  color: var(--colors-black, #212121);
+  color: #000000;
   font-feature-settings: "clig" off, "liga" off;
 }
 .right h4 {
@@ -102,18 +102,17 @@ ul li a {
   font-weight: 400;
   line-height: 16px; /* 172.727% */
   letter-spacing: -0.2px;
-  opacity: 0.6;
   text-align: justify;
 }
 
 .education {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 .learn span,
 .education span {
-  color: var(--colors-black, #212121);
+  color: #000000;
   font-feature-settings: "clig" off, "liga" off;
   font-family: IBM Plex Sans;
   font-size: 11px;
@@ -126,7 +125,7 @@ ul li a {
   margin-bottom: 4px;
 }
 .right a {
-  color: var(--colors-black, #212121);
+  color: #000000;
 }
 .right a:hover {
   text-decoration: none;
@@ -144,4 +143,8 @@ a:hover {
 }
 .bold {
   font-weight: 600;
+}
+.job {
+  font-size: 12px;
+  font-weight: bold;
 }
