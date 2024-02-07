@@ -38,7 +38,7 @@
 }
 ul {
   list-style: none;
-  gap:16px;
+  gap:12px;
   display: flex;
   flex-direction: column;
   font-family: "Hind", sans-serif;
@@ -129,6 +129,9 @@ ul li a {
 }
 .right a:hover {
   text-decoration: none;
+}
+.learn p {
+  text-align: justify !important;
 }
 a:hover {
   text-decoration: underline;
