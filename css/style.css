@@ -151,3 +151,15 @@ a:hover {
   font-size: 12px;
   font-weight: bold;
 }
+.span-bold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.learn .span-bold {
+  gap: 8px;
+}
+.boldd {
+  font-weight: 900 !important;
+}
