@@ -24,7 +24,8 @@
 }
 .left img {
   width: 60px;
-  height: 60px;
+  /* height: 80px; */
+  
   border-radius: 49px;
   background: #fff;
   background-blend-mode: color;
